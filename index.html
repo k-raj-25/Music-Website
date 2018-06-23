@@ -1,0 +1,88 @@
+<!DOCTYPE>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Kamal Rajput">
+
+    <title>Music Play</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!-- Bootstrap JS -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Custom JS Script -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+        function hideURLbar(){ window.scrollTo(0,1); } </script>
+        
+</head>
+<body>
+
+    <nav navbar-fixed-top">
+        <div class="city container-full">
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul>
+                    <li class="active nav-home"><a class="nav" href="index.html">Home</a></li>
+                    <li class="nav-home"><a class="nav" href="#main-nav">Music Playing</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="main-nav">
+        <div class="city container header-content">
+            <h1 class="header"><strong>Turn Up The Speakers</strong></h1>
+            <h1>|| Play the Music ||</h1>
+            <a href="#audio" onclick="scrollWin()"  class="btn btn-blue btn-xl page-scroll">Scroll to Play</a>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="audio">
+        <div class="city container-fluid">
+            <h1>The Music</h1><hr class="blue">
+            <center><p class="audio">Press the Play button to through the Shit out of Your Head.</p></center>
+            <div id="audio-player" class="audio-player-wrapper">
+                  <div class="audio-player-image">
+                    <span class="audio-player-song-name"></span>
+                  </div>
+              <div class="audio-player-controls">
+                <span class="audio-player-progress">
+                  <span class="audio-player-progress-bar"></span>
+                </span>
+                <span class="audio-player-button-wrappers">
+                  <a role="button" class="audio-player-button small icon-backward"><span>Previous</span></a>
+                  <a role="button" class="audio-player-button audio-player-place-pause-button icon-play"></a>
+                  <a role="button" class="audio-player-button small icon-forward"><span>Next</span></a>
+                </span>
+              </div>
+            </div>
+        </div>
+    
+    <script src="js/jquery.min.js" type="text/javascript"></script>    
+    <script src="js/custom.js" type="text/javascript"></script>
+
+    </section>
+
+    <section id="footer">
+        <div class="city container">
+            <div class="footer">
+                <div class="agileinfo">
+                    <p> &copy; 2016 Turn Up The Speakers. All Rights Reserved | Design by  <a href="https://www.facebook.com/mr.me.theonlyme"> Kamal Rajput</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
